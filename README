@@ -1,0 +1,6 @@
+Simple python syslog server
+writes output to /var/log/syslog-server.log
+
+install using: sudo ./install.sh
+
+status: systemctl status syslog-server

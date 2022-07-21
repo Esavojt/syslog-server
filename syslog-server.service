@@ -1,0 +1,9 @@
+[Unit]
+Description=Simple syslog server
+
+[Service]
+Type=simple
+ExecStart=python3 -u /usr/local/bin/syslog-server.py
+
+[Install]
+WantedBy=multi-user.target
