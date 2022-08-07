@@ -1,7 +1,5 @@
 import datetime
 import socket
-import select
-import time
 import signal
 
 PORT = 514
